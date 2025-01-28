@@ -1,3 +1,28 @@
+"""
+*******************************************************************************
+*             Text Generation with Distributed Transformer Model              *
+*                                                                             *
+* DESCRIPTION:                                                                *
+* This program leverages a distributed transformer model to generate text     *
+* based on user prompts. It supports both interactive mode and batch mode,    *
+* with customizable temperature and token limits. The model can be loaded     *
+* from checkpoint files and uses the AutoTokenizer for efficient token        *
+* processing. The code is optimized for multi-GPU environments and includes   *
+* features like temperature-based sampling and message passing via PyTorch    *
+* distributed communication.                                                  *
+*                                                                             *
+* Copyright (c) 2024, Nico Fontani                                            *
+* Creation Date: 28 Jan 2025                                                  *
+*                                                                             *
+* Original Author: Nico Fontani                                               *
+* Last Modified: 28 Jan 2025                                                  *
+*                                                                             *
+* Supported by Python, PyTorch, Transformers, and Safetensors                 *
+*                                                                             *
+*******************************************************************************
+"""
+
+
 import os
 import json
 from argparse import ArgumentParser
