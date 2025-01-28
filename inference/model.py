@@ -1,3 +1,28 @@
+"""
+*******************************************************************************
+*                                                                             *
+*                  Transformer Neural Network with Multi-Head Attention       *
+*                                                                             *
+* DESCRIPTION:                                                                *
+* This program implements a transformer model with multi-head attention.      *
+* It includes various parallelization strategies for embedding and linear     *
+* layers to efficiently handle large models. The network uses techniques      *
+* like Low-Rank Adaptation (LoRA) for efficient parameterization and          *
+* advanced optimizations with FP8 and BF16 precision.                         *
+*                                                                             *
+* Copyright (c) 2024, Nico Fontani                                            *
+* Creation Date: 28 Jan 2025                                                  *
+*                                                                             *
+* Original Author: Nico Fontani                                               *
+* Last Modified: 28 Jan 2025                                                  *
+*                                                                             *
+* Supported by Python, PyTorch, and Numpy                                     *
+*                                                                             *
+*******************************************************************************
+"""
+
+
+
 import math
 from dataclasses import dataclass
 from typing import Tuple, Optional, Literal
